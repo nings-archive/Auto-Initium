@@ -138,7 +138,6 @@ def _auto_combat():
         time.sleep(3)
 
 def _auto_defend():
-    try:
     time_start = time.time()
     gold_start = update_gold()
     gold_last = update_gold()
